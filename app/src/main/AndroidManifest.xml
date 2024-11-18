@@ -13,6 +13,18 @@
         android:theme="@style/Theme.Custom_List_view"
         tools:targetApi="31">
         <activity
+            android:name=".ExpandableListAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".DetailedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListAdapter"
+            android:exported="false" />
+        <activity
+            android:name="com.ListAdapter"
+            android:exported="false" />
+        <activity
             android:name="com.DetailedActivity"
             android:exported="false" />
         <activity
